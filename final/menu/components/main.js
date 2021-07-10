@@ -1,0 +1,1 @@
+export default  MainVar = "Main.js";

@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images.menu/background.jpg);
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section1 h1{
+    font-size: 3em;
+    font-weight: 800;
+}
+.section1 .underlined{
+    height: 10px;
+    width: 45%;
+    background: rgb(173,141,32);
+}
+.filter-btns1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.filter-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.filter-btn{
+    padding: 10px;
+    font-size: 1.25em;
+    color: rgb(173,141,32);
+    border: 2px solid;
+    background: transparent;
+} 
+.filter-btn:hover{
+    color: #fff;
+    border: 2px solid;
+    background:  rgb(173,141,32);
+}
+.menuItem{
+    display: flex;
+    width: 40%;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;   
+}
+.photo{
+    border: 5px solid rgb(173,141,32);
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.menuItem{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.menuItem .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #000;
+}
+.menuItem .title .price{
+    color: rgb(173,141,32);
+    font-weight: 900;
+    font-size: 1.25em;
+
+}
+.menuItem p{
+    color: #686;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.underlined1{
+    height: 15px;
+    width: 100%;
+    background:rgb(173,141,32);
+}
+
+
